@@ -40,7 +40,7 @@ public:
     }
     long long GetIndexElem(int8_t elem){
         // 1. Доп. память для хранения первого встречного индекса
-        // 2. Бин. поиск
+        // 2. Бин. поискbhtbyh
         for (int8_t i = 0; i < _count; i++) 
             if (elem == _array[i]) 
                 return i;
